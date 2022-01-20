@@ -11,13 +11,8 @@
     public static int[] currency = new int[] { 1, 5, 10, 25 };
     static void Main(string[] args)
     {
-        Console.WriteLine($"Найти сумму: {FindSum(12)}");//4
-        var dic = CalcNatur(55);//5
         foreach (var item in dic)
             Console.WriteLine(item);
-        Console.WriteLine($"Отсортировать число: {SortNum(987654321)}");//6
-        Console.WriteLine($"Пирамида: {FindPyramidSum(1)}");//7
-        Console.WriteLine($"Вернуть 5: {ReturnFive()}");//8
     }
     // 4 задание
     static int FindSum(int num)
