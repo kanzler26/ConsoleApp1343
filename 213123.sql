@@ -1,9 +1,9 @@
                                                                    --SQL
-                                                                   --1 Задание
+                                                                   --1 Р—Р°РґР°РЅРёРµ
 Select * From Cars 
 Where BaseID is not null
 Order By BaseID ASC
-                                                                    --2 Задание
+                                                                    --2 Р—Р°РґР°РЅРёРµ
                                                                     
 With Result As
 (
@@ -16,7 +16,7 @@ Select Name From Brands As brands Join
 Result as res On
 res.BrandsID = brands.ID
 Where CarsID >3;
-                                                                     --3 Задание
+                                                                     --3 Р—Р°РґР°РЅРёРµ
 
 
 With Result As
@@ -29,7 +29,7 @@ Group by brands.ID
 Select Name, Price From Brands As brands Join
 Result as res On
 res.BrandsID = brands.ID
-                                                                      --4 Задание
+                                                                      --4 Р—Р°РґР°РЅРёРµ
 
 With Result As
 (
@@ -44,7 +44,7 @@ Select Top(2) Name, res.CarsPower As brands Join
 Result as res On
 res.BrandsID = brands.ID
 Order By Power Desc
-                                                                      --5 Задание
+                                                                      --5 Р—Р°РґР°РЅРёРµ
 
 With Result As
 (
